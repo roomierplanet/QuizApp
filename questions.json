@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What is my first name?",
+        "choiceList": ["Arnab", "Arnob", "Arnav", "Arnov"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is my last name?",
+        "choiceList": ["Sharma", "Nagpal", "Mehta", "Dehade"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What's my favourite food",
+        "choiceList": ["Shrimp", "Malai Kofta", "Shahi Paneer", "Butter Chicken"],
+        "correctAnswer": 4
+    }
+]

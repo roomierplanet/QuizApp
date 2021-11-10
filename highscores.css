@@ -1,0 +1,28 @@
+#highScores {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: white;
+    transform: translateY(-17rem);
+}
+  
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #333;
+    color: white;
+}
+  
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+#homeBtn {
+    transform: translateY(-8rem);
+}
