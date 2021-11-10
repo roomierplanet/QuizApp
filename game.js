@@ -1,4 +1,3 @@
-ethereum.autoRefreshOnNetworkChange = false;
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 let quizArr = [];
@@ -35,6 +34,7 @@ const getQuestion = (apiQuestion)  => {
     ret.choiceList.push(apiQuestion.correct_answer);
     ret.choiceList.sort(() => Math.random() - 0.5);
     ret.correctAnswer = ret.choiceList.indexOf(apiQuestion.correct_answer) + 1;
+    console.log(ret);
     return ret;
 }
 
