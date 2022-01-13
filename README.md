@@ -1,5 +1,7 @@
 # QuizApp
 
+**Deployment Link:** https://quiz-app-arnavnagpal.netlify.app/
+
 QuizApp is a generic multiple-choice web application written in Vanilla Javascript 
 
 This application fetches questions and their answers from the OpenTrivia DB API - the questions change in each instance of the game played. 
